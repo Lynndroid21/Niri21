@@ -76,7 +76,7 @@
         "format": "<span color='#e3b872'> </span> Update~",
         "tooltip": true,
         "tooltip-format": "Update your system, Babe!~",
-        "on-click": "kitty ~/Hypreco-dots/sys-updater-hypreco.sh",
+        "on-click": "kitty ~/Niri21/sys-updater-niri21.sh",
     },
 
     "custom/btop": {
