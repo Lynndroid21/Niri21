@@ -1,2 +1,80 @@
 # Niri21
+
+![](https://img.shields.io/github/last-commit/Lynndroid21/Niri21?&style=for-the-badge&color=c099ff&logo=git&logoColor=D9E0EE&labelColor=544a73)
+![](https://img.shields.io/github/stars/Lynndroid21/Niri21?style=for-the-badge&logo=andela&color=c099ff&logoColor=D9E0EE&labelColor=544a73)
+![](https://img.shields.io/github/repo-size/Lynndroid21/Niri21?color=c099ff&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=544a73)
+![](https://img.shields.io/reddit/user-karma/combined/Lynndroid21?style=for-the-badge&logo=reddit&logoColor=%23D9E0EE&logoSize=auto&labelColor=%23544a73&color=%23c099ff&link=https%3A%2F%2Fwww.reddit.com%2Fuser%2FLynndroid21)
+![](https://img.shields.io/badge/u%2FLynndroid21-user?style=for-the-badge&logo=reddit&logoColor=D9E0EE&logoSize=auto&label=My%20Reddit&labelColor=544a73&color=c099ff&link=https%3A%2F%2Fwww.reddit.com%2Fuser%2FLynndroid21)
+
 A Simple Dotfiles pack for the Niri WM.
+
+<img width="2559" height="1439" alt="niri2025-12-25_14-20" src="https://github.com/user-attachments/assets/c051b8f2-f054-4aa6-ba56-186232a8b91d" />
+<img width="2559" height="1439" alt="niri2025-12-25_14-21" src="https://github.com/user-attachments/assets/2ab5711a-3dc9-4654-9ecd-8590b5be79e3" />
+<img width="2559" height="1439" alt="niri2025-12-25_14-25" src="https://github.com/user-attachments/assets/b5c13677-c694-438f-a3a1-826fce8ded86" />
+
+# Installation
+
+***REQUIRED:***
+
+* yay (for the future updates that use my own install script for maximum lazy lol.) ONLY REQUIRED FOR ARCH USERS!
+
+* Niri (duhh)
+* brightnessctl
+* flameshot
+* waybar
+* waypaper
+* swaybg
+* pywal
+* ChromiumPywal - pywalfox - wal_steam
+* wl-paste
+* wl-clipboard
+* hyprlock
+* swayidle
+* swaync
+* fish
+* kitty
+* rofi
+* wlogout
+* pipewire-pulse
+* batsignal
+* xcursor
+* polkit-gnome
+* starship
+
+*External Dependencies:*
+
+* Docker Desktop (soon to be implemented!)
+* Self Hosted Search engine (I use SearXNG, but if there's another one that exists that you wanna use go ahead)
+* Kate Advanced text Editor (you can find it on flathub, I highly recommend using it for code edits, it just simplifies your workflow nicely.)
+
+*Other used applications:*
+
+* Localsend
+* Brave (most browser callbacks in these files will call for it, but if you use firefox it should auto call for that too.)
+* Deezer Desktop (You can use spotify-- ew-- instead of deezer, I personally enjoy deezer more)
+* Lazyvim (for those who enjoy terminal file browsing more)
+* Dolphin (default file browser used)
+* tmux
+
+Most of these dependencies are fairly simple to get running, the real work is inserting certain labels for your specific docker components. Luckily I'm working on making several scripts to automate certain containers to run on startup. This is currently a WIP, so check back in for updates on development!
+
+## **Instructions**
+
+Clone this repo and run ./setup.sh and enjoy!
+
+# DISCLAIMER
+
+The sys-updater-sway21.sh script is now built for most distros! However, I'm new to linux and haven't tested any other package managers, so PLEASE leave an issue if the dependency install function is failing! This is an EVOLVING WIP, updates may happen rapidly during the beginning 6 months of this project!
+
+# Credits!
+
+Shotout to a few people for inspo/code included:
+
+* [Niksingh's gdots](https://github.com/niksingh710/gdots)
+
+# Starchart & Other fun things!~
+
+## Niribunnies over time
+
+Look at all our Niribunnies!
+[![Stargazers over time](https://starchart.cc/Lynndroid21/Niri21.svg?background=%23101010&axis=%23a6a2ff&line=%23c7b1ff)](https://starchart.cc/Lynndroid21/Niri21)
