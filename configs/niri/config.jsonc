@@ -75,8 +75,12 @@
     "custom/sys_upd": {
         "format": "<span color='#e3b872'> </span> Update~",
         "tooltip": true,
-        "tooltip-format": "Update your system, Babe!~",
-        "on-click": "kitty ~/Niri21/sys-updater-niri21.sh",
+        "tooltip-format": "Update your system, Babe!~ {text}",
+        "on-click": "kitty ~/.config/niri/sys-updater-niri21.sh",
+        "return-type": "json",
+        "exec": "~/.config/waybar/cust-bash-scripts/service-checks/arch21_updates.sh",
+        "exec-if": "exit 0",
+        "signal": 8
     },
 
     "custom/btop": {
