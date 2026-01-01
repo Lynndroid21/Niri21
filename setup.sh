@@ -228,26 +228,30 @@ run_N21upd() {
 }
 
 ins_N21proc() {
-    if $updFin = true; then
-       if $ins_N21deps = true; then
-            if $ins_N21dots = true; then
-                if $updcomp = true; then
+    if $updFin = true
+    then
+       if $ins_N21deps = true
+       then
+            if $ins_N21dots = true
+            then
+                if $updcomp = true
+                then
                     echo "You have some important stuff to reload!"
                     echo ""
                     if confirm "Wanna restart your system, babe?"; then
                         echo ""
                         sleep 1
                         command reboot
+                        else
+                        echo ""
+                        echo "Just be sure to restart later, okay?~" && sleep 4 && echo "3...2..1.~ And Done!"
+                        echo ""
+                        sleep 2
+                        info "You're all set, hun! Enjoy your new desktop!~"
+                        sleep 4
+                        command clear
+                        exit
                     fi
-                else
-                echo ""
-                echo "Just be sure to restart later, okay?~" && sleep 4 && echo "3...2..1.~ And Done!"
-                echo ""
-                sleep 2
-                info "You're all set, hun! Enjoy your new desktop!~"
-                sleep 4
-                command clear
-                exit
                 fi
             else
             install_N21dots
