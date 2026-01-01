@@ -3,7 +3,7 @@
   "ignore-gtk-theme": true,
   "positionX": "right",
   "positionY": "top",
-  "layer": "top",
+  "layer": "overlay",
   "control-center-layer": "top",
   "layer-shell": true,
   "layer-shell-cover-screen": true,
